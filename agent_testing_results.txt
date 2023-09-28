@@ -1,0 +1,21 @@
+param values: 3 dimensions, 100 paricles, 5 landmarks, 1000 step limit, 0.25 drone distance, 8.0 environment noise_std, 100 simulations
+    weight_particles_gaussian_pdf results:
+    Probability of success: 0.44
+    Successful Average steps: 45.09090909090909
+    Overall Average steps: 484.7551343900758 (regardless of reaching goal)
+
+    weight_particles_softmax_dot_product results:
+    Probability of success: 0.11
+    Successful Average steps: 59.72727272727273
+    Overall Average steps: 497.55935640585653 (regardless of reaching goal)
+
+param values: 3 dimensions, 100 paricles, 5 landmarks, 1000 step limit, 0.5 drone distance, 8.0 environment noise_std, 100 simulations
+    weight_particles_gaussian_pdf results:
+    Probability of success: 1.0
+    Successful Average steps: 49.18
+    Overall Average steps: 27.091703944692966 (regardless of reaching goal)
+
+    weight_particles_softmax_dot_product results:
+    Probability of success: 0.29
+    Successful Average steps: 50.827586206896555
+    Overall Average steps: 491.39346612447446 (regardless of reaching goal)
